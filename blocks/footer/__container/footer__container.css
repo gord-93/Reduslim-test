@@ -1,0 +1,6 @@
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+    margin: 11px auto;
+}

@@ -1,0 +1,11 @@
+.header__promo {
+    position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .header__promo {
+        width: 202px;
+        height: 202px;
+        margin: 9px auto 0;
+    }
+}

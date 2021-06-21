@@ -1,0 +1,16 @@
+.contact {
+    width: 560px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        width: 100%;
+        height: 100%;
+        padding-top: 37px;
+    }
+}

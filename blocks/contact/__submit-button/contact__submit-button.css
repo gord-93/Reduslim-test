@@ -1,0 +1,16 @@
+.contact__submit-button {
+    width: 320px;
+    height: 42px;
+    background-color: rgba(66, 138, 96, 1);
+    color: white;
+    border: none;
+    margin: 38px 0 0 0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__submit-button {
+        width: 280px;
+        margin-bottom: 28px;
+    }
+}

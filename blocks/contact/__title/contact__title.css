@@ -1,0 +1,23 @@
+.contact__title {
+    width: 303px;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    text-align: center;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 29px 128.5px;
+    margin: 0;
+    border-top-right-radius: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__title {
+        width: 280px;
+        padding: 0;
+        background: #FFFFFF;
+        
+    }
+    .contact__title br {
+        display: none;
+    }
+}

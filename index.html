@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="pages/index.css" rel="stylesheet">
+        <title>Reduslim</title>
+    </head>
+    <body class="body">
+        <div class="page">
+            <header class="header">
+                <div class="header__titles">
+                    <p class="header__title">Reduslim</p>
+                    <p class="header__title">ECO</p>
+                </div>
+                <div class="header__promo">
+                    <div class="header__ellipse"></div>
+                    <img class="header__packaging" src="./images/packaging.svg" alt="Изображение упаковки Reduslim">
+                </div>
+                <div class="header__second-ellipse"></div>
+            </header>
+            <section class="contact">
+                <h1 class="contact__title">Сделай шаг <br> к выздоровлению</h1>
+                <form class="contact__form" method="POST" name="contactForm" novalidate>
+                    <p class="contact__input-name">Ваше <span class="contact__input-name_colored">имя</span> </p>
+                    <input class="contact__input" type="text" placeholder="Алексей" name="inputName">
+                    <p class="contact__input-name">Ваш <span class="contact__input-name_colored">телефон</span> </p>
+                    <div class="contact__phone-container">
+                        <input class="contact__input contact__phone-input" type="tel" placeholder="+7 (123) 456 78-90" name="inputName" 
+                        pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12">
+                        <button class="contact__language-button" type="button">RU 
+                            <img class="contact__language-icon" src="./images/flag-ru.svg" alt="Изображение флага РФ">
+                            <img class="contact__language-arrow" src="./images/language-arrow.svg" alt="Изображение стрелки открытия списка">
+                            <div class="contact__language-dropdown">
+                                <a href="#">EN<img class="contact__language-icon" src="./images/united-kingdom.svg" alt="Изображение флага Англии"></a>
+                            </div>
+                        </button>
+                    </div>
+                    <button class="contact__submit-button" type="submit">Заказать &rarr;</button>
+                </form>
+            </section>
+            <footer class="footer">
+                <div class="footer__container">
+                    <p class="footer__text">Trusted</p>
+                    <img class="footer__image" src="./images/lock.svg" alt="Изображение замка">
+                    <p class="footer__text">Secure</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

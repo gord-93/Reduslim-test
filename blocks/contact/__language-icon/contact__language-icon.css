@@ -1,0 +1,13 @@
+.contact__language-icon {
+    width: 26.18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    left: 52px;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__language-icon {
+        left: 42px;
+    }
+}

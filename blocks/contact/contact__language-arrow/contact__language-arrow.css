@@ -1,0 +1,11 @@
+.contact__language-arrow {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__language-arrow {
+        right: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+.header__titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 40px 0 35px 40px;
+    width: 89px;
+    height: 100%;
+    z-index: 3;
+}
+
+@media screen and (max-width: 767px) {
+    .header__titles {
+        min-width: 100%;
+        flex-direction: row;
+        height: 23px;
+        margin: 40px 0 0;
+    }
+}

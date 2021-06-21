@@ -1,0 +1,17 @@
+.header__second-ellipse {
+    border: 20px solid #428A60;
+    border-radius: 50%;
+    width: 688px;
+    height: 688px;
+    position: absolute;
+    top: -94px;
+    left: 235px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+@media screen and (max-width: 767px) {
+    .header__second-ellipse {
+        display: none;
+    }
+}

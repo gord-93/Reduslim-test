@@ -1,0 +1,13 @@
+.contact__form {
+    width: 320.18px;
+    margin: 52px 122.82px 0 117px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__form {
+        width: 280.18px;
+        margin: 28px auto 0;
+    }
+}

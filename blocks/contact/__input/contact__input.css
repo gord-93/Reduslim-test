@@ -1,0 +1,23 @@
+.contact__input {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: black;
+    border: 1px solid rgba(228, 228, 228, 1);
+    padding: 15px 20px 15px 20px;
+    margin: 10px 0 0 0;
+    outline: none;
+    width: 280px;
+    border-radius: 5px;
+    background-color: rgba(248, 248, 248, 1);
+}
+
+.contact__input::placeholder {
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__input {
+        width: 238px;
+    }
+}

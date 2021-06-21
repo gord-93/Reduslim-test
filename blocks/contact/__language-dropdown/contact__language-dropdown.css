@@ -1,0 +1,29 @@
+.contact__language-dropdown {
+    background-color: white;
+    width: 114px;
+    height: 50px;
+    position: absolute;
+    bottom: -50px;
+    left: -1px;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(228, 228, 228, 1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+.contact__language-dropdown a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .contact__language-dropdown {
+        width: 94.18px;
+    }
+}

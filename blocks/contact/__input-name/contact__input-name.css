@@ -1,0 +1,12 @@
+.contact__input-name {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+.contact__input-name:first-of-type {
+    margin-top: 0px;
+}
