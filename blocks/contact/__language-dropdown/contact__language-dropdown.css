@@ -22,7 +22,7 @@
     margin-left: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
     .contact__language-dropdown {
         width: 94.18px;
     }

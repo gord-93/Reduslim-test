@@ -8,7 +8,7 @@
     left: 20px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
     .header__ellipse {
         width: 202px;
         height: 202px;

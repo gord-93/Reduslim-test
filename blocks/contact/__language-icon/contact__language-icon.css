@@ -6,7 +6,7 @@
     left: 52px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
     .contact__language-icon {
         left: 42px;
     }

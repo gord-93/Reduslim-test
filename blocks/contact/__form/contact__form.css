@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1279px) {
     .contact__form {
         width: 280.18px;
         margin: 28px auto 0;
